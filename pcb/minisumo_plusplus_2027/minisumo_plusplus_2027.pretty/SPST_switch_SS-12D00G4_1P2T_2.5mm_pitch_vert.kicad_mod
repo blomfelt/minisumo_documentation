@@ -1,0 +1,131 @@
+(footprint "SPST_switch_SS-12D00G4_1P2T_2.5mm_pitch_vert"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4a9b7835-1c71-41c6-a9c7-b694467a4998")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SPST_switch_SS-12D00G4_1P2T_2.5mm_pitch_vert"
+		(at 0 2.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3ac84643-c041-49c1-b2fd-a2f6f2837fb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.aliexpress.com/item/1005012590512228.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb5089cb-2956-442b-a361-949f93d63339")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2.5mm pin spacing 90deg"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4a05956-8172-4d97-a5a9-8fe7b6a62bf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.85 -1.75)
+		(end 1.85 6.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4d9d658c-3a00-4d37-88c0-98e3f36a91ce")
+	)
+	(fp_rect
+		(start -0.75 2.615)
+		(end 0.75 4.615)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ca9506e7-6162-4a3d-9229-1dd749c9ae70")
+	)
+	(fp_rect
+		(start -2.1 -2.0075)
+		(end 2.1 6.9925)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "56abbe4f-11a3-4a52-90ec-98d8468c5d9a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.77 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0d01123-ce24-4ccd-adcb-c1a1b3c97df8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0 180)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "cdbea514-e354-442f-bf73-218546866bbb")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 2.5 180)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "38fda0f9-98e9-4dd8-a175-e0781a576bb8")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 5 180)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "afcea01f-9610-41c3-b7b5-f95bc9a2aa30")
+	)
+	(embedded_fonts no)
+)
