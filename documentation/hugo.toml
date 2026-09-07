@@ -1,0 +1,61 @@
+baseURL = 'https://chalmersrobotics.github.io/CRF-SumoBot/'
+locale = 'en-us'
+title = 'CRF-SumoBot'
+contentDir = 'content'
+enableEmoji = true
+
+[params.docs]
+    darkMode = true
+    sidebarIcons = true
+    themeColor = 'emerald' #Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
+    repoURL = "https://github.com/chalmersrobotics/CRF-SumoBot"
+    repoBranch = "release"
+    editPage = true # enable 'Edit this page' feature - default false
+    lastMod = true  # enable 'Last modified' date on pages - default false
+    lastModRelative = true # format 'Last modified' time as relative - default true
+    useLastmodTime  = false # use lastmod time for content or fallback to git info - default false
+
+[params.social]
+    github = "chalmersrobotics/CRF-SumoBot"
+
+[module]
+    [[module.imports]]
+        path = "github.com/colinwilson/lotusdocs"
+        disable = false
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
+
+[params.footer]
+    copyright = "© :YEAR: [Chalmers Robotics Society](https://chalmersrobotics.se/). Built with ❤️ and [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+version = true
+
+[markup]
+    [markup.tableOfContents]
+      endLevel = 3
+      startLevel = 1
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # https://jdhao.github.io/2019/12/29/hugo_html_not_shown/
+  [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+      block = true
+
+# Enables the use of the language switcher in the top tight corner
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+[languages]
+  [languages.en]
+    title = "Lotus Docs Example Site"
+    label = "English"
+    contentDir = "content/en"
+    weight = 10
+  [languages.sv]
+    title = "Lotus Docs Exempelsida"
+    label = "Svenska"
+    contentDir = "content/sv"
+    weight = 20
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
