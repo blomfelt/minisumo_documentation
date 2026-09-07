@@ -4,13 +4,6 @@ A follow-up to the [CRF SumoBot](https://github.com/ChalmersRobotics/CRF-SumoBot
 
 After RobotSM 2026 we sold out of kits that were arduino based and ran out of batteries that were cheap. While doing these changes we also chose to update the PCB and make some pretty big changes to the model, so why not make upgrades!?
 
-Please find:
-- [Instructions and workshop intro (v1.2, updated 251105) - here](TODO)
-- [3D manufacturing files](TODO)
-- [complete release package - here!](https://github.com/ChalmersRobotics/CRF-SumoBot/releases)
-
-!["Rendered image of nano-hat v1.2"](https://github.com/user-attachments/assets/4b3bfe92-f011-4b23-bd6a-29615ce4e76a)
-
 ## Concept
 A minisumo .. plus some other things .. plus even some more!
 - Minisumo for robotSM primarily, but as possible a module that can be a spring board into other things
@@ -77,9 +70,6 @@ See [the google sheets bom](https://docs.google.com/spreadsheets/d/1KNLTKy2cLUtD
 
 | Version       | Changes      |
 | ------------- | ------------- |
-| v2.0          | <ul><li>Updated PCB design</li><li>Changed to ESP from Arduino</li></ul> |
-| v1.2          | <ul><li>Add EN_A and EN_B pins for controlling H-Bridge speed</li><li>Move start module placement slightly more towards the edge</li><li>Add header pins for unused ports on the Arduino to allow further extension / mods</li><li>Add an optional switch to pull-up and bypass start module</li></ul> |
-| v1.1          | <ul><li>Move mounting holes slightly</li><li>Add header pins for start module</li></ul> |
 | v1.0          | First draft |
 
 
