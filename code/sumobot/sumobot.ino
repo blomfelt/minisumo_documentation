@@ -167,20 +167,20 @@ void backward(int speed)
 void rotateLeft(int speed)
 {
   Serial.println(__func__);
-  analogWrite(pin[MOTOR_IN1], speed);
-  analogWrite(pin[MOTOR_IN2], 0);
-  analogWrite(pin[MOTOR_IN3], speed);
-  analogWrite(pin[MOTOR_IN4], 0);
+  analogWrite(pin[MOTOR_IN1], 0);
+  analogWrite(pin[MOTOR_IN2], speed);
+  analogWrite(pin[MOTOR_IN3], 0);
+  analogWrite(pin[MOTOR_IN4], speed);
   checkStopSignal();
 }
 
 void rotateRight(int speed)
 {
   Serial.println(__func__);
-  analogWrite(pin[MOTOR_IN1], 0);
-  analogWrite(pin[MOTOR_IN2], speed);
-  analogWrite(pin[MOTOR_IN3], 0);
-  analogWrite(pin[MOTOR_IN4], speed);
+  analogWrite(pin[MOTOR_IN1], speed);
+  analogWrite(pin[MOTOR_IN2], 0);
+  analogWrite(pin[MOTOR_IN3], speed);
+  analogWrite(pin[MOTOR_IN4], 0);
   checkStopSignal();
 }
 
