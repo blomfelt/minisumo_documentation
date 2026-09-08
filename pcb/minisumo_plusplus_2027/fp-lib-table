@@ -5,4 +5,5 @@
 	(lib (name "minisumo_plusplus_2027") (type "KiCad") (uri "${KIPRJMOD}/minisumo_plusplus_2027.pretty") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "C:/Users/pjage/OneDrive/Documents/KiCad/10.0/footprints.pretty") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "C:/Users/pjage/OneDrive/Documents/KiCad/10.0/footprints.pretty") (options "") (descr ""))
+	(lib (name "CRF") (type "KiCad") (uri "C:/Users/pjage/Documents/projects/CRF.pretty") (options "") (descr ""))
 )
