@@ -1,10 +1,10 @@
 # CRF minisumo++2027 (CRFminisumoplusplus2027)
 
-A follow-up to the [CRF SumoBot](https://github.com/ChalmersRobotics/CRF-SumoBot)[^1] designed by Kalle Strålman.
+A follow-up to the [CRF SumoBot](https://github.com/ChalmersRobotics/CRF-SumoBot)[^1] designed primarily by Kalle Strålman and David Strålman.
 
 After RobotSM 2026 we sold out of kits that were arduino based and ran out of batteries that were cheap. While doing these changes we also chose to update the PCB and make some pretty big changes to the model, so why not make upgrades!?
 
-## Concept
+## Concept for minisumo++2027
 A minisumo .. plus some other things .. plus even some more!
 - Minisumo for robotSM primarily, but as possible a module that can be a spring board into other things
 - Minisumo that one steers like an RC car via bluetooth!
@@ -31,14 +31,23 @@ A minisumo .. plus some other things .. plus even some more!
 - [x] Control motors via bluetooth
 - [ ] Design the chassis
 - [ ] Write build instructions
+- [ ] PCBs - need to build to confirm eg ALL footprints (all done by hand) && perform functional tests with everything mounted as designed with software running && confirm within eventual 3d packaging.
+
 
 ## Instructions
-- Obtain Components and Chassis (See *Bill of Materials below*)
+- Obtain Components and Chassis (See *Bill of Materials below*) or via a kit @ CRF while supplies last!
 - Download the `minisumo-bot.ino` file from [releases on the right side](https://github.com/ChalmersRobotics/CRF-SumoBot/releases)
 - Build the robot according to the [instructions](TODO)
 - Upload the code to the robot as in the [instructions](TODO) or as documented below.
 
-## Uploading code to the ESP32
+
+### Instructions for pcb assembly / soldering incl tips and tricks
+tbd
+
+### Instructions for final assembly
+tbd
+
+### Instructions for uploading code to the ESP32
 - Install Arduino IDE v2 from their [website](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/)[^2] or your favourite package manager. Current version is 2.3.10.
 - Install the required boards from the Boards Manager in the left column, second icon from the top:
     - esp32 by Espressif Systems (current version 3.3.11)
@@ -52,12 +61,14 @@ A minisumo .. plus some other things .. plus even some more!
 - Verify and/or Upload the sketch to the ESP32 using the checkbox and/or arrow in the top left corner.
 
 
-## Bill of Materials
+
+### Bill of Materials
 See [the google sheets bom](https://docs.google.com/spreadsheets/d/1KNLTKy2cLUtDrH-E30Gfz_4ahhQaqS2SGsFHG1Fw9_M/edit?usp=sharing))
 - PCB
 - 3D printed chassis
 - [ESP32 C6 Super Mini](https://mischianti.org/esp32-c6-supermini-high-resolution-pinout-datasheet-schema-and-specs/)
-- Battery 3.7v cr123 with contacts built in!
+- Battery 3.7v cr123 with recharge usb c contact built in!
+- Battery contacts!
 - Buck boost to push motor driver to 9v!
 - Switch on / off .. a smaller one is needed
 - Motor driver: L298N
