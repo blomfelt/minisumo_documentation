@@ -10,7 +10,7 @@ A minisumo .. plus some other things .. plus even some more!
 - Minisumo that one steers like an RC car via bluetooth!
 - Lego version! .. encapsulate motors and such into a robot combat like (or autonomous robot?) that can be lego'd together!
 - [Death racers](https://www.youtube.com/watch?v=i10rxmsKHts)
-- Dobot combat base module
+- Robot combat base module
 - More? Why not?? Probably possible
   - Line following!?
   - Esphome controlled robot w/ or w/o home assistant!?
