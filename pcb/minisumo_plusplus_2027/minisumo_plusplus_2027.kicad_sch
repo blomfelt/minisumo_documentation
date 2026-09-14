@@ -2265,10 +2265,34 @@
 		(uuid "9e0467fd-9d67-4a60-88e5-986ab524d610")
 	)
 	(junction
+		(at 74.93 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "224669be-7abb-4790-9249-383027b6c6cb")
+	)
+	(junction
 		(at 69.85 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22b88b20-33de-4a05-a020-858a60180815")
+	)
+	(junction
+		(at 50.8 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38ae46a0-6864-4fd4-b9e8-3919414d7a06")
+	)
+	(junction
+		(at 72.39 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eda2fca7-fbec-4dc9-9c97-afe78a8af905")
+	)
+	(junction
+		(at 48.26 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5c685a7-dad1-48c3-b717-4ad8405e6ce4")
 	)
 	(wire
 		(pts
@@ -2282,6 +2306,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 53.34) (xy 121.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081523cf-9523-43e1-92e2-f83d24bf44a7")
+	)
+	(wire
+		(pts
 			(xy 111.76 58.42) (xy 111.76 46.99)
 		)
 		(stroke
@@ -2292,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 53.34) (xy 121.92 53.34)
+			(xy 69.85 53.34) (xy 72.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2332,6 +2366,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 58.42) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab6f5ed-7c9b-4b60-9b9c-b5f3db045f5f")
+	)
+	(wire
+		(pts
+			(xy 74.93 58.42) (xy 111.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7f60ff-83f8-4d1c-be2e-43dd805bc6c5")
+	)
+	(wire
+		(pts
 			(xy 49.53 63.5) (xy 40.64 63.5)
 		)
 		(stroke
@@ -2362,6 +2416,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 76.2) (xy 52.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd2ba33-e339-4bd1-8983-f24c3635b0e1")
+	)
+	(wire
+		(pts
 			(xy 115.57 102.87) (xy 123.19 102.87)
 		)
 		(stroke
@@ -2369,6 +2433,16 @@
 			(type default)
 		)
 		(uuid "54702eee-0359-415e-9e4e-50a8c996ada5")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 50.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d6c5ea-d2ff-48a0-8eb9-ff568c7bfe99")
 	)
 	(wire
 		(pts
@@ -2402,13 +2476,33 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 58.42) (xy 52.07 58.42)
+			(xy 52.07 71.12) (xy 50.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b5e25c-192e-447f-86b2-69406ca7cb81")
+	)
+	(wire
+		(pts
+			(xy 40.64 58.42) (xy 48.26 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9038cdc8-573e-4920-8af7-81656afb06d8")
+	)
+	(wire
+		(pts
+			(xy 72.39 53.34) (xy 72.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9772c4a0-0e29-4d0b-9c9f-cef02b5e0ae6")
 	)
 	(wire
 		(pts
@@ -2442,13 +2536,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 58.42) (xy 111.76 58.42)
+			(xy 68.58 58.42) (xy 74.93 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a01941b0-a54a-44ce-a4d0-3784f58e1b59")
+	)
+	(wire
+		(pts
+			(xy 48.26 58.42) (xy 52.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1be02ef-a6f6-47e3-a752-14a7efc4f9bc")
 	)
 	(wire
 		(pts
@@ -2492,13 +2596,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 52.07 53.34)
+			(xy 48.26 53.34) (xy 50.8 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c2643e34-e573-4d20-bfae-40f858aa617b")
+	)
+	(wire
+		(pts
+			(xy 68.58 71.12) (xy 72.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4cb16f3-6fcb-4e97-aaf4-badc1102ae03")
 	)
 	(wire
 		(pts
@@ -2509,6 +2623,16 @@
 			(type default)
 		)
 		(uuid "c8299998-b62e-44d0-a055-1d8005de4543")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 52.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91958ab-88ee-4bc2-bb5b-2de08c2c5543")
 	)
 	(wire
 		(pts
@@ -2532,6 +2656,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 76.2) (xy 74.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b62eca-ad5b-4942-a1cc-4ebffb7c5547")
+	)
+	(wire
+		(pts
 			(xy 69.85 46.99) (xy 69.85 53.34)
 		)
 		(stroke
@@ -2549,6 +2683,16 @@
 			(type default)
 		)
 		(uuid "f3adea3f-1fe1-4a4c-9d14-2395d306bdb5")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbed8077-63ad-4805-b4f2-9b822c74f232")
 	)
 	(label "9v"
 		(at 48.26 53.34 0)
@@ -3270,6 +3414,93 @@
 		)
 	)
 	(symbol
+		(lib_id "minisumo_plusplus_2027:XL6009_4A_Boost_Converter_Step_Up_Adjustable_15W_5-32V_to_5-50V_DC-DC_Power_Supply_Module_LM2577_Step-up_Module")
+		(at 66.04 67.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "192375b2-63c1-4aad-a281-e2c6b07767ee")
+		(property "Reference" "A3"
+			(at 60.325 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 66.04 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "minisumo_plusplus_2027:MT3608 DC-DC Boost Module – 28V 2A Step-Up Power Module"
+			(at 66.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aliexpress.com/item/1005010504010086.html"
+			(at 66.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XL6009 4A Boost Converter Step Up Adjustable 15W 5-32V to 5-50V DC-DC Power Supply Module LM2577 Step-up Module"
+			(at 66.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9192a71e-d7ac-4f7d-9e2d-3cabb30e3247")
+		)
+		(pin "1"
+			(uuid "7a0f4d0d-6c5f-46b3-aa29-a64ec5842e14")
+		)
+		(pin "2"
+			(uuid "28ecdee5-2113-4584-bd76-842774d8477a")
+		)
+		(pin "4"
+			(uuid "b3f0432a-bd24-4735-9c60-f5be83811e11")
+		)
+		(instances
+			(project "minisumo_plusplus_2027"
+				(path "/65ad0d35-fb8f-4881-ae17-8c4840fba223"
+					(reference "A3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 157.48 88.9 0)
 		(unit 1)
@@ -3735,7 +3966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "minisumo_plusplus_2027:Mini_L298N_2_Channel_H_Bridge_DC_Motor_Driver_Board_with_MX1508-2.54_int1-4-special_silk"
 			(at 38.1 54.61 0)
 			(hide yes)
 			(show_name no)
