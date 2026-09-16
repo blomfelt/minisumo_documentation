@@ -2283,6 +2283,24 @@
 		(uuid "38ae46a0-6864-4fd4-b9e8-3919414d7a06")
 	)
 	(junction
+		(at 214.63 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "410c4ff9-f89b-4ead-9b4c-9e068dd8d45d")
+	)
+	(junction
+		(at 214.63 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "781c9077-84f6-4aef-85dc-04a25d84c386")
+	)
+	(junction
+		(at 214.63 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c846aaf3-768d-410d-9af5-a3f86d21e7b1")
+	)
+	(junction
 		(at 72.39 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2293,6 +2311,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5c685a7-dad1-48c3-b717-4ad8405e6ce4")
+	)
+	(junction
+		(at 214.63 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6bfdf47-8e98-45bd-add9-a598690a7e91")
 	)
 	(wire
 		(pts
@@ -2326,6 +2350,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 115.57) (xy 194.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1584081e-5665-43c0-9da2-b4679241e9ab")
+	)
+	(wire
+		(pts
 			(xy 69.85 53.34) (xy 72.39 53.34)
 		)
 		(stroke
@@ -2336,6 +2370,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 115.57) (xy 222.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e372c9-a493-4fe1-ae51-a29047359937")
+	)
+	(wire
+		(pts
 			(xy 40.64 55.88) (xy 48.26 55.88)
 		)
 		(stroke
@@ -2343,6 +2387,16 @@
 			(type default)
 		)
 		(uuid "24d5eb24-d460-4870-a59e-69f32e287bdf")
+	)
+	(wire
+		(pts
+			(xy 185.42 118.11) (xy 214.63 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26db9cbc-ce25-4003-b99d-68ef60c710a1")
 	)
 	(wire
 		(pts
@@ -2386,6 +2440,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 110.49) (xy 214.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3122c4d7-cd78-43dc-8edc-8a68fb870020")
+	)
+	(wire
+		(pts
 			(xy 49.53 63.5) (xy 40.64 63.5)
 		)
 		(stroke
@@ -2403,6 +2467,16 @@
 			(type default)
 		)
 		(uuid "3b099c05-1b01-4e8e-a0b4-904e16b470f3")
+	)
+	(wire
+		(pts
+			(xy 194.31 115.57) (xy 194.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc92e50-003a-4693-9715-51247443cdb1")
 	)
 	(wire
 		(pts
@@ -2446,6 +2520,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 110.49) (xy 222.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653628c1-edd9-4e83-8283-2865460dfe92")
+	)
+	(wire
+		(pts
 			(xy 41.91 72.39) (xy 41.91 118.11)
 		)
 		(stroke
@@ -2463,6 +2547,16 @@
 			(type default)
 		)
 		(uuid "7368bf2d-d9ee-4017-aa52-f7854ea38b47")
+	)
+	(wire
+		(pts
+			(xy 214.63 113.03) (xy 222.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812082cf-ff89-4960-8a98-5b13a1443e51")
 	)
 	(wire
 		(pts
@@ -2556,6 +2650,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 113.03) (xy 191.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65631c3-0a27-4920-9057-4422ca9d93f4")
+	)
+	(wire
+		(pts
 			(xy 115.57 100.33) (xy 121.92 100.33)
 		)
 		(stroke
@@ -2586,6 +2690,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 123.19) (xy 185.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af61fc94-6889-4aea-adc0-a59ebd5f55b6")
+	)
+	(wire
+		(pts
 			(xy 69.85 46.99) (xy 91.44 46.99)
 		)
 		(stroke
@@ -2593,6 +2707,16 @@
 			(type default)
 		)
 		(uuid "bbe437c6-083d-4d6d-b5f1-8f4819b8a231")
+	)
+	(wire
+		(pts
+			(xy 191.77 113.03) (xy 191.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1189036-dd55-41b6-a7e2-f5b91dea8096")
 	)
 	(wire
 		(pts
@@ -2623,6 +2747,16 @@
 			(type default)
 		)
 		(uuid "c8299998-b62e-44d0-a055-1d8005de4543")
+	)
+	(wire
+		(pts
+			(xy 189.23 110.49) (xy 189.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd59431-4921-4866-9db5-e661539f5dfb")
 	)
 	(wire
 		(pts
@@ -2676,6 +2810,36 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 120.65) (xy 185.42 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff538d2-74f5-4e7a-96d9-94238405e531")
+	)
+	(wire
+		(pts
+			(xy 189.23 125.73) (xy 185.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0abd031-d6d7-48c3-b9cb-c683f7d57aaf")
+	)
+	(wire
+		(pts
+			(xy 214.63 118.11) (xy 222.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e9def0-e97d-489e-b81a-35773ae3a6ce")
+	)
+	(wire
+		(pts
 			(xy 46.99 66.04) (xy 46.99 113.03)
 		)
 		(stroke
@@ -2716,8 +2880,7 @@
 	)
 	(global_label "START Start"
 		(shape input)
-		(at 162.56 113.03 0)
-		(fields_autoplaced yes)
+		(at 222.25 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2726,7 +2889,7 @@
 		)
 		(uuid "068051b1-ed51-40c8-8dbb-9b47e21b2ad0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.6122 113.03 0)
+			(at 290.9122 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2808,8 +2971,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 162.56 110.49 0)
-		(fields_autoplaced yes)
+		(at 222.25 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2818,7 +2980,7 @@
 		)
 		(uuid "2771c9b7-2186-4915-a23c-1ab0884d3da1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.4157 110.49 0)
+			(at 283.7157 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3153,8 +3315,7 @@
 	)
 	(global_label "START Kill - not mandatory for sumo"
 		(shape input)
-		(at 162.56 115.57 0)
-		(fields_autoplaced yes)
+		(at 222.25 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3163,7 +3324,7 @@
 		)
 		(uuid "b3e6ad49-1317-4e72-9f9c-2271ff774aa5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.2535 115.57 0)
+			(at 316.5535 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3222,8 +3383,7 @@
 	)
 	(global_label "3v3"
 		(shape input)
-		(at 162.56 107.95 0)
-		(fields_autoplaced yes)
+		(at 222.25 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3232,7 +3392,7 @@
 		)
 		(uuid "d3e162a6-bd12-42f0-bc08-f0d916fb2ec5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.9318 107.95 0)
+			(at 283.2318 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3659,6 +3819,91 @@
 			(project "minisumo_plusplus_2027"
 				(path "/65ad0d35-fb8f-4881-ae17-8c4840fba223"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 180.34 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cbdfb75-9edd-4baf-af3d-d8f608f7e590")
+		(property "Reference" "J6"
+			(at 180.975 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Start Module - Conn_01x04_Pin"
+			(at 180.975 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
+			(at 180.34 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://p1r.se/startmodule/"
+			(at 180.34 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 180.34 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c6efffc-fb67-4c46-8f8f-ffc5aa1305dc")
+		)
+		(pin "3"
+			(uuid "a2256732-b3fc-4e27-8cc6-68f677150a8c")
+		)
+		(pin "2"
+			(uuid "c3c7ecb3-9d69-450a-abb6-dc71605c8fe7")
+		)
+		(pin "4"
+			(uuid "fe772c47-5851-40fc-b775-98775c626e80")
+		)
+		(instances
+			(project "minisumo_plusplus_2027"
+				(path "/65ad0d35-fb8f-4881-ae17-8c4840fba223"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4126,7 +4371,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 157.48 110.49 0)
+		(at 209.55 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4137,7 +4382,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1d0d166-d657-497e-b156-5f813b7e1c59")
 		(property "Reference" "J3"
-			(at 158.115 102.87 0)
+			(at 210.185 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4147,7 +4392,7 @@
 			)
 		)
 		(property "Value" "Start Module - Conn_01x04_Pin"
-			(at 158.115 105.41 0)
+			(at 210.185 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4157,7 +4402,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 157.48 110.49 0)
+			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,7 +4413,7 @@
 			)
 		)
 		(property "Datasheet" "https://p1r.se/startmodule/"
-			(at 157.48 110.49 0)
+			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4179,7 +4424,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 157.48 110.49 0)
+			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
