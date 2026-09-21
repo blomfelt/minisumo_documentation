@@ -80,70 +80,105 @@ class CommandCallbacks : public NimBLECharacteristicCallbacks {
       NimBLECharacteristic* characteristic,
       NimBLEConnInfo& connInfo
   ) override {
-    std::string value = characteristic->getValue();
+    NimBLEAttValue value = characteristic->getValue();
+    
 
     Serial.print("Text: ");
-    Serial.println(value.c_str());
+    Serial.println(value);
 
-    for (char command : value) {
-      switch (command) {
-        case 'A':
-          Serial.println("Forward");
-          flash_led(1);
-          forward(SPEED_FORWARDS);
-          //delay(1000);
-          break;
+    switch (static_cast<char>(value[0])) {
+      case 'A':
+        Serial.println("Forward");
+        //flash_led(1);
+        forward(SPEED_FORWARDS);
+        delay(150);
+        stop();
+        break;
 
-        case 'B':
-          Serial.println("Right");
-          flash_led(2);
-          rotateRight(SPEED_FORWARDS);
-          //delay(1000);
-          break;
+      case 'B':
+        Serial.println("Right");
+        //flash_led(2);
+        rotateRight(SPEED_FORWARDS);
+        delay(150);
+        stop();
+        break;
 
-        case 'C':
-          Serial.println("Backward");
-          flash_led(3);
-          backward(SPEED_FORWARDS);
-          //delay(1000);
-          break;
+      case 'C':
+        Serial.println("Backward");
+        //flash_led(3);
+        backward(SPEED_FORWARDS);
+        delay(150);
+        stop();
+        break;
 
-        case 'D':
-          Serial.println("Left");
-          flash_led(4);
-          rotateLeft(SPEED_FORWARDS);
-          //delay(1000);
-          break;
+      case 'D':
+        Serial.println("Left");
+        //flash_led(4);
+        rotateLeft(SPEED_FORWARDS);
+        delay(150);
+        stop();
+        break;
 
-        case 'E':
-          Serial.println("Triangle");
-          flash_led(1);
-          stop();
-          break;
+      case 'a':
+        Serial.println("Forward");
+        //flash_led(1);
+        forward(SPEED_FORWARDS);
+        delay(100);
+        stop();
+        break;
 
-        case 'F':
-          Serial.println("Circle");
-          flash_led(2);
-          stop();
-          break;
+      case 'b':
+        Serial.println("Right");
+        //flash_led(2);
+        rotateRight(SPEED_FORWARDS);
+        delay(100);
+        stop();
+        break;
 
-        case 'G':
-          Serial.println("Cross");
-          flash_led(3);
-          stop();
-          break;
+      case 'c':
+        Serial.println("Backward");
+        //flash_led(3);
+        backward(SPEED_FORWARDS);
+        delay(100);
+        stop();
+        break;
 
-        case 'H':
-          Serial.println("Square");
-          flash_led(4);
-          stop();
-          break;
+      case 'd':
+        Serial.println("Left");
+        //flash_led(4);
+        rotateLeft(SPEED_FORWARDS);
+        delay(100);
+        stop();
+        break;
 
-        default:
-          Serial.print("Unknown command: ");
-          Serial.println(command);
-          break;
-      }
+      case 'E':
+        Serial.println("Triangle");
+        //flash_led(1);
+        stop();
+        break;
+
+      case 'F':
+        Serial.println("Circle");
+        //flash_led(2);
+        stop();
+        break;
+
+      case 'G':
+        Serial.println("Cross");
+        //flash_led(3);
+        stop();
+        break;
+
+      case 'H':
+        Serial.println("Square");
+        //flash_led(4);
+        stop();
+        break;
+
+      default:
+        Serial.print("Unknown command: ");
+        Serial.println(value);
+        break;
     }
   }
 };
@@ -202,7 +237,6 @@ void loop() {
   }
   delay(10);
 }
-
 // Is the stop button pressed?
 // Optional for minisumo
 void checkStopSignal()
@@ -235,16 +269,6 @@ void backward(int speed)
   checkStopSignal();
 }
 
-void rotateLeft(int speed)
-{
-  Serial.println(__func__);
-  analogWrite(pin[MOTOR_IN1], speed);
-  analogWrite(pin[MOTOR_IN2], 0);
-  analogWrite(pin[MOTOR_IN3], speed);
-  analogWrite(pin[MOTOR_IN4], 0);
-  checkStopSignal();
-}
-
 void rotateRight(int speed)
 {
   Serial.println(__func__);
@@ -252,6 +276,16 @@ void rotateRight(int speed)
   analogWrite(pin[MOTOR_IN2], speed);
   analogWrite(pin[MOTOR_IN3], 0);
   analogWrite(pin[MOTOR_IN4], speed);
+  checkStopSignal();
+}
+
+void rotateLeft(int speed)
+{
+  Serial.println(__func__);
+  analogWrite(pin[MOTOR_IN1], speed);
+  analogWrite(pin[MOTOR_IN2], 0);
+  analogWrite(pin[MOTOR_IN3], speed);
+  analogWrite(pin[MOTOR_IN4], 0);
   checkStopSignal();
 }
 

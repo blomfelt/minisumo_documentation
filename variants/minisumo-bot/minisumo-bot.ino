@@ -17,14 +17,14 @@ enum PinMappings
 {
   SIG_START,
   SIG_KILL,
-  SENSOR_SND_TRIG,
-  SENSOR_SND_ECHO,
-  SENSOR_IR_FRONT,
-  SENSOR_IR_BACK,
   MOTOR_IN1,
   MOTOR_IN2,
   MOTOR_IN3,
   MOTOR_IN4,
+  SENSOR_IR_FRONT,
+  SENSOR_IR_BACK,
+  SENSOR_SND_TRIG,
+  SENSOR_SND_ECHO,
   _SIZE_LIMIT,
 };
 
@@ -32,14 +32,14 @@ enum PinMappings
 static uint8_t const pin[_SIZE_LIMIT] = {
     [SIG_START] = 14,
     [SIG_KILL] = 18,
-    [SENSOR_SND_TRIG] = 6,
-    [SENSOR_SND_ECHO] = 7,
-    [SENSOR_IR_FRONT] = 4,
-    [SENSOR_IR_BACK] = 5,
     [MOTOR_IN1] = 0,
     [MOTOR_IN2] = 1,
     [MOTOR_IN3] = 2,
     [MOTOR_IN4] = 3,
+    [SENSOR_IR_FRONT] = 4,
+    [SENSOR_IR_BACK] = 5,
+    [SENSOR_SND_TRIG] = 6,
+    [SENSOR_SND_ECHO] = 7,
 };
 
 // Distance in cm 
@@ -167,20 +167,20 @@ void backward(int speed)
 void rotateLeft(int speed)
 {
   Serial.println(__func__);
-  analogWrite(pin[MOTOR_IN1], speed);
-  analogWrite(pin[MOTOR_IN2], 0);
-  analogWrite(pin[MOTOR_IN3], speed);
-  analogWrite(pin[MOTOR_IN4], 0);
+  analogWrite(pin[MOTOR_IN1], 0);
+  analogWrite(pin[MOTOR_IN2], speed);
+  analogWrite(pin[MOTOR_IN3], 0);
+  analogWrite(pin[MOTOR_IN4], speed);
   checkStopSignal();
 }
 
 void rotateRight(int speed)
 {
   Serial.println(__func__);
-  analogWrite(pin[MOTOR_IN1], 0);
-  analogWrite(pin[MOTOR_IN2], speed);
-  analogWrite(pin[MOTOR_IN3], 0);
-  analogWrite(pin[MOTOR_IN4], speed);
+  analogWrite(pin[MOTOR_IN1], speed);
+  analogWrite(pin[MOTOR_IN2], 0);
+  analogWrite(pin[MOTOR_IN3], speed);
+  analogWrite(pin[MOTOR_IN4], 0);
   checkStopSignal();
 }
 

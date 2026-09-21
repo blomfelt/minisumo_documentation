@@ -7,7 +7,7 @@
 		(at 0 5.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4a9b7835-1c71-41c6-a9c7-b694467a4998")
+		(uuid "d9738a0a-203b-4184-bdf6-ed1cb5993977")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 2.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3ac84643-c041-49c1-b2fd-a2f6f2837fb3")
+		(uuid "7baeb2d3-0ac0-4b49-b9fb-491190ac9767")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eb5089cb-2956-442b-a361-949f93d63339")
+		(uuid "80ff6f3a-13f6-4aed-93d3-f66459354b00")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c4a05956-8172-4d97-a5a9-8fe7b6a62bf5")
+		(uuid "a3efa917-ee00-4507-ad46-f226531b6a94")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4d9d658c-3a00-4d37-88c0-98e3f36a91ce")
+		(uuid "47ad83f4-5e0c-4c2b-9843-66ac3fa0ae5b")
 	)
 	(fp_rect
 		(start -0.75 2.615)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "ca9506e7-6162-4a3d-9229-1dd749c9ae70")
+		(uuid "6ef43823-fd3f-40ab-a5d4-47b2c161cb68")
 	)
 	(fp_rect
 		(start -2.1 -2.0075)
@@ -86,13 +86,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "56abbe4f-11a3-4a52-90ec-98d8468c5d9a")
+		(uuid "3899d52c-546d-48d4-bafe-65b1cbb8c46b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.77 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c0d01123-ce24-4ccd-adcb-c1a1b3c97df8")
+		(uuid "c5796264-03bb-4afb-afe8-9a7c7a737ed6")
 		(effects
 			(font
 				(size 1 1)
@@ -107,7 +107,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "cdbea514-e354-442f-bf73-218546866bbb")
+		(uuid "03e9cb87-fcae-4033-8446-c4cddd5df909")
 	)
 	(pad "2" thru_hole roundrect
 		(at 0 2.5 180)
@@ -116,7 +116,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "38fda0f9-98e9-4dd8-a175-e0781a576bb8")
+		(uuid "0dae3ddd-46a8-4332-a537-503dd5088022")
 	)
 	(pad "3" thru_hole roundrect
 		(at 0 5 180)
@@ -125,7 +125,18 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "afcea01f-9610-41c3-b7b5-f95bc9a2aa30")
+		(uuid "2307d9bb-8d25-4eba-a723-190a8ed6c7a4")
 	)
 	(embedded_fonts no)
+	(model "C:/code/minisumoplusplus2027/3d/steps/switch_slide_SPST_SS-12D00G4_1P2T.step"
+		(offset
+			(xyz 0 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
