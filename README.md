@@ -10,7 +10,7 @@ A minisumo .. plus some other things .. plus even some more!
 - Minisumo that one steers like an RC car via bluetooth!
 - Lego version! .. encapsulate motors and such into a robot combat like (or autonomous robot?) that can be lego'd together!
 - [Death racers](https://www.youtube.com/watch?v=i10rxmsKHts)
-- Dobot combat base module
+- Robot combat base module
 - More? Why not?? Probably possible
   - Line following!?
   - Esphome controlled robot w/ or w/o home assistant!?
@@ -36,7 +36,7 @@ A minisumo .. plus some other things .. plus even some more!
 
 ## Instructions
 - Obtain Components and Chassis (See *Bill of Materials below*) or via a kit @ CRF while supplies last!
-- Download the `minisumo-bot.ino` file from [releases on the right side](https://github.com/ChalmersRobotics/CRF-SumoBot/releases)
+- Download the `minisumo-bot.ino` file from [releases on the right side](https://github.com/ChalmersRobotics/minisumoplusplus2027/releases)
 - Build the robot according to the [instructions](TODO)
 - Upload the code to the robot as in the [instructions](TODO) or as documented below.
 
