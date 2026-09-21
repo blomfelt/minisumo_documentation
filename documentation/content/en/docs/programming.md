@@ -19,6 +19,7 @@ toc: true
 - Connect the ESP32 to your computer while holding the BOOT button on the board. It will show up in the right column as something like `/dev/usb/ttyASM0` if you are on linux. Click Ok.
     - The board may not show up, in which case you need to hold the Boot button while connecting the board, then tapping the RST button and finally releasing the BOOT button.
 - Paste the contents of `minisumo-bot.ino` into the default sketch or download the file and open it from File > Open
+- If you want to see the serial monitor when the ESP is connected to your computer you need to enable "*USB CDC On Boot*" under Tools in the top bar, after which you can open the Serial Monitor in the top right corner under the magnifying glass.
 - Verify and/or Upload the sketch to the ESP32 using the checkbox and/or arrow in the top left corner.
 - **Done!** Now it will run the code you uploaded to it every time it is powered on!
 
