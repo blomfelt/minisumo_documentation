@@ -550,7 +550,7 @@
       "netlist": "",
       "plot": "../fab/260917a/",
       "specctra_dsn": "",
-      "step": "../../3d/steps/minisumo_plusplus_2027-260916a.step",
+      "step": "../../3d/steps/minisumo_plusplus_2027-proto0_ordered_260916b.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
