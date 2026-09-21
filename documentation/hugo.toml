@@ -46,12 +46,12 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 [languages]
   [languages.en]
-    title = "Lotus Docs Example Site"
+    title = "Minisumoplusplus"
     label = "English"
     contentDir = "content/en"
     weight = 10
   [languages.sv]
-    title = "Lotus Docs Exempelsida"
+    title = "Minisumoplusplus"
     label = "Svenska"
     contentDir = "content/sv"
     weight = 20
