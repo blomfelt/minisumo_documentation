@@ -1,0 +1,40 @@
+1   Concept
+1   Quickstart
+2   example-page (CRF Minisumo bot)
+3   Step-by-step instructions
+10  Bill of materials
+20  Soldering
+30  Calibrating IR sensors
+40  Programming
+100 Variants
+120 Bluetooth variant
+998 Contributing
+999 Changelog
+999 Help
+
+Layout:
+1.  Concept, goals and features
+2.  Quickstart for Minisumo version
+3.  Minisumo variant step-by-step build instructions
+10. Variants (list with link to each page? Fold-out folder with a page for each variant?)
+    11. Minisumo Variant
+        - Quickstart (link to the code)
+        - Bill of Materials
+    12. Bluetooth Variant
+        - Quickstart (link to the code)
+        - Bill of Materials
+    13. LEGO variant
+    14. Linefollower variant
+    15. Death Racer variant
+    16. Combat robot variant
+
+100. Soldering
+
+200. Programming
+
+300. Calibrating the IR Sensors
+
+997 Contributing
+998 Changelog
+999 Help
+

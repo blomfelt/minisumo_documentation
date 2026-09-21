@@ -1,8 +1,8 @@
 ---
-weight: 20
+weight: 100
 title: "Soldering"
 description: ""
-icon: "article"
+icon: "ink_pen"
 date: "2026-09-02T16:56:09+02:00"
 lastmod: "2026-09-02T16:56:09+02:00"
 draft: false

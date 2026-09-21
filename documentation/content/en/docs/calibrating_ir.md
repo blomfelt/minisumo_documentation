@@ -1,8 +1,8 @@
 ---
-weight: 30
+weight: 300
 title: "Calibrating the IR sensors"
 description: ""
-icon: "article"
+icon: "lightbulb_2"
 date: "2026-09-01T22:09:18+02:00"
 lastmod: "2026-09-01T22:09:18+02:00"
 draft: false
