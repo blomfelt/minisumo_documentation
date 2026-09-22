@@ -12,6 +12,6 @@ cp -R variants/minisumo-bot/ "release/minisumo-${VERSION}/"
 # Zip each folder, each created zip file is placed in the release/ folder
 cd release
 for variant in */; do
-    name="$dir%/"
+    name="$variant%/"
     zip -r "${name}.zip" "${name}"
 done
