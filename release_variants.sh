@@ -3,8 +3,8 @@ set -eu
 
 VERSION="${VERSION:-$(git describe --tags --exact-match)}"
 
-rm -rf "release/${NAME}"
-mkdir -p "release/${NAME}"
+rm -rf "release"
+mkdir -p "release"
 
 # Minisumo version
 cp -R variants/minisumo-bot/ "release/minisumo-${VERSION}/"
