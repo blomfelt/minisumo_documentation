@@ -1,3 +1,5 @@
+name: Create zip for each variant on tag
+
 on:
   push:
     tags:
