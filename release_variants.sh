@@ -7,7 +7,10 @@ rm -rf "release"
 mkdir -p "release"
 
 # Minisumo version
-cp -R variants/minisumo-bot/ "release/minisumo-${VERSION}/"
+cp -R variants/minisumo-bot/ 3d/Old_Sumobot.v7.3mf "release/minisumo-${VERSION}/"
+
+# Bluetooth version
+cp -R variants/Bluetooth_control/ 3d/Old_Sumobot.v7.3mf "release/bluetooth-${VERSION}/"
 
 # Zip each folder, each created zip file is placed in the release/ folder
 cd release
