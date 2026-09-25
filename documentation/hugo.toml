@@ -27,7 +27,7 @@ enableEmoji = true
         disable = false
 
 [params.footer]
-    copyright = "© :YEAR: [Chalmers Robotics Society](https://chalmersrobotics.se/). Built with ❤️ and [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+    copyright = "© :YEAR: [Chalmers Robotics Society](https://chalmersrobotics.se/). Built using [**Hugo**](https://gohugo.io/) and [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
 version = true
 
 [markup]
