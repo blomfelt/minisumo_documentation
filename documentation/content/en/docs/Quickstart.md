@@ -9,7 +9,8 @@ draft: false
 toc: true
 ---
 
-Det finns även svensk version av instruktionerna, du kan byta språk längst upp till höger under **EN**, eller genom att [klicka här](/sv/docs/).
+Det finns även svensk version av instruktionerna, du kan byta språk längst upp till höger under **EN**, eller genom att [klicka här](/minisumo_documentation/sv/docs/).
+
 
 - Obtain Components and Chassis (See [Bill of Materials](/docs/step_by_step/bom.md)) by buying a kit from us at CRF or by providing your own.
 - Download the `minisumo-bot.ino` file from [the minisumo-bot folder on github](https://github.com/ChalmersRobotics/minisumoplusplus2027/blob/main/variants/minisumo-bot/minisumo-bot.ino)
