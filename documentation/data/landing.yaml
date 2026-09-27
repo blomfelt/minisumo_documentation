@@ -17,7 +17,7 @@ hero:
     soft: true # boolean
 
   title: "MiniSumo bot"
-  subtitle: A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
+  subtitle: A **beginner-friendly robot kit**, you only need to solder it together! All things included, **no previous experience required**. Buy a kit from us or source your own components. Built to be a *starting point* for further robotics projects if you want.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -33,7 +33,7 @@ hero:
   cta2Button:
     icon: construction
     btnText: "Get the Code"
-    url: "https://github.com/ChalmersRobotics/CRF-SumoBot"
+    url: "https://github.com/ChalmersRobotics/minisumoplusplus2027"
 
   info: "**Open Source** GPL-3.0 Licensed? Created by Chalmers Robotics Society (CRF)"
 

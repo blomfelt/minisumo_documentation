@@ -1,4 +1,4 @@
-baseURL = 'https://chalmersrobotics.github.io/CRF-SumoBot/'
+baseURL = 'https://chalmersrobotics.github.io/minisumoplusplus2027/'
 locale = 'en-us'
 title = 'CRF-SumoBot'
 contentDir = 'content'
@@ -8,15 +8,15 @@ enableEmoji = true
     darkMode = true
     sidebarIcons = true
     themeColor = 'emerald' #Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
-    repoURL = "https://github.com/chalmersrobotics/CRF-SumoBot"
-    repoBranch = "release"
+    repoURL = "https://github.com/chalmersrobotics/minisumoplusplus2027"
+    repoBranch = "main"
     editPage = true # enable 'Edit this page' feature - default false
     lastMod = true  # enable 'Last modified' date on pages - default false
     lastModRelative = true # format 'Last modified' time as relative - default true
     useLastmodTime  = false # use lastmod time for content or fallback to git info - default false
 
 [params.social]
-    github = "chalmersrobotics/CRF-SumoBot"
+    github = "chalmersrobotics/minisumoplusplus2027"
 
 [module]
     [[module.imports]]
